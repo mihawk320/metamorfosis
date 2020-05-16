@@ -1,83 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400,700');
- html {
-	 font-size: 100%;
+.letra{
+    font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-weight: bold;
 }
- header {
-	 font-family: 'Open Sans', sans-serif;
-	 color: #fff;
-	 line-height: 1.6;
+#main .carousel-inner img {
+    height: 70vh;
+    object-fit: cover;
+    background: red;
+	filter: grayscale(70%);
 }
- .img-responsive {
-	 max-width: 100%;
-	 height: auto;
-	 display: block;
+
+#main .carousel {
+    position: relative;
 }
- h1.titulox {
-	 text-align: center;
-	 font-family: "Oswald", sans;
-	 font-size: 4rem;
-	 font-weight: normal;
-     line-height: 3.5rem;
-     color:white;
+
+#main .carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index:1;
 }
- h3.xd {
-	 font-size: 1.35rem;
-	 line-height: 2rem;
-	 text-transform: uppercase;
-     letter-spacing: 1px;
-     color:white;
+
+#main .carousel .overlay .container,
+#main .carousel .overlay .row{
+    height: 100%;
 }
- .contenedor1 {
-	 margin: 0 auto;
-	 width: 100%;
-	 height: 100vh;
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 background: url(../img/machine1.jpg);
-	 background-position: center center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
-}
- .item {
-	/* Padding is used for smaller screens */
-	 padding: 0 30px 0 30px;
-	 text-align: center;
-}
- .btn {
-	 text-transform: uppercase;
-	 letter-spacing: 1px;
-	 margin-top: 1rem;
-	 display: inline-block;
-	 line-height: 1.25rem;
-	 text-align: center;
-	 white-space: nowrap;
-	 vertical-align: middle;
-	 user-select: none;
-	 border: 1px solid transparent;
-	 padding: 0.75rem 1.25rem;
-	 font-size: 1rem;
-	 border-radius: 0.25rem;
-	 transition: all 0.2s ease-in-out;
-}
- .btn.btn-primary {
-	 color: #fff;
-	 background-color: #000;
-	 border-color: #666;
-}
- .btn.btn-primary:hover {
-	 color: #fff;
-	 background-color: #333;
-	 border-color: #666;
-}
- @media (min-width: 992px) {
-	 .item {
-		 width: 80%;
-	}
-}
- @media (min-width: 1200px) {
-	 .item {
-		 width: 60%;
-	}
-}
- 
+
+/* Main Final*/
