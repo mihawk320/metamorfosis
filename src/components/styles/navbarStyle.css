@@ -1,0 +1,29 @@
+.logo {
+  max-width: 160px;
+  min-width: 80px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 80px;
+}
+
+.menu {
+  width: 50px;
+}
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #fe346e;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
