@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "./Nav";
 import "./styles/HeaderStyle.css";
-import Banner from "../images/banner.png";
-import Banner2 from "../images/banner2.png";
+import { Link } from "react-router-dom";
+import Banner from "../images/banner.jpg";
 
 class Header extends React.Component {
   render() {
@@ -25,14 +25,6 @@ class Header extends React.Component {
                   loading="lazy"
                 />
               </div>
-              <div className="carousel-item">
-                <img
-                  src={Banner2}
-                  className="d-block w-100"
-                  alt="banner2"
-                  loading="lazy"
-                />
-              </div>
 
               <div className="overlay">
                 <div className="container">
@@ -42,12 +34,9 @@ class Header extends React.Component {
                       <p className="d-none d-md-block">
                         Lanzamos nueva lencería Femenina
                       </p>
-                      <a
-                        href="formulario.php"
-                        className="btn btn-outline-light"
-                      >
+                      <Link to="/LenceriaF" className="btn btn-outline-light">
                         Ver catálogo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

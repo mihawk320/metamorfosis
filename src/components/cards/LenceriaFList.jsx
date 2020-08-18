@@ -36,7 +36,7 @@ class LenceriaFList extends React.Component {
           {
             image: "https://i.ibb.co/9bTp2fg/pijama5.jpg",
             titulo: "Pijama vinotinto",
-            descripcion: "Precio: $10.000",
+            descripcion: "Precio: $60.000",
             referencia: "Referencia 03LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia03LF",
@@ -44,38 +44,38 @@ class LenceriaFList extends React.Component {
           {
             image: "https://i.ibb.co/1mN8HWR/pijama3.jpg",
             titulo: "Pijama Roja",
-            descripcion: "Precio: $10.000",
+            descripcion: "Precio: $50.000",
             referencia: "Referencia 04LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia04LF",
           },
           {
             image: "https://i.ibb.co/C6gvMS3/pijama2.jpg",
-            titulo: "Pijama Blanca - Seda",
-            descripcion: "Precio: $10.000",
+            titulo: "Pijama Negra - Satín",
+            descripcion: "Precio: $40.000",
             referencia: "Referencia 05LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia05LF",
           },
           {
             image: "https://i.ibb.co/KygC9wq/pijama1.jpg",
-            titulo: "Pijama Blanca - Seda",
-            descripcion: "Precio: $10.000",
+            titulo: "Pijama Negra - Satín y encaje",
+            descripcion: "Precio: $35.000",
             referencia: "Referencia 06LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia06LF",
           },
           {
             image: "https://i.ibb.co/b2dqDVP/12.jpg",
-            titulo: "Pijama Blanca - Seda",
-            descripcion: "Precio: $10.000",
+            titulo: "Tangas",
+            descripcion: "Precio: $8.000",
             referencia: "Referencia 07LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia07LF",
           },
           {
             image: "https://i.ibb.co/0DZFNWk/11.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Cacheteros de encaje",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 08LF",
             link:
@@ -83,7 +83,7 @@ class LenceriaFList extends React.Component {
           },
           {
             image: "https://i.ibb.co/gTQRfHw/09.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Tangas de encaje",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 09LF",
             link:
@@ -91,7 +91,7 @@ class LenceriaFList extends React.Component {
           },
           {
             image: "https://i.ibb.co/0QxKHP4/10.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Tangas",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 10LF",
             link:
@@ -99,15 +99,15 @@ class LenceriaFList extends React.Component {
           },
           {
             image: "https://i.ibb.co/2PBxmCr/08.jpg",
-            titulo: "Pijama Blanca - Seda",
-            descripcion: "Precio: $10.000",
+            titulo: "Tangas de tiras",
+            descripcion: "Precio: $15.000",
             referencia: "Referencia 11LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia11LF",
           },
           {
             image: "https://i.ibb.co/yQ1Kg6m/07.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Tanga de encaje",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 12LF",
             link:
@@ -115,7 +115,7 @@ class LenceriaFList extends React.Component {
           },
           {
             image: "https://i.ibb.co/F4vdh0s/06.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Tanga de encaje",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 13LF",
             link:
@@ -123,31 +123,24 @@ class LenceriaFList extends React.Component {
           },
           {
             image: "https://i.ibb.co/qkPh30c/05.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Tanga",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 14LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia14LF",
           },
-          {
-            image: "https://i.ibb.co/KygC9wq/pijama1.jpg",
-            titulo: "Pijama Blanca - Seda",
-            descripcion: "Precio: $10.000",
-            referencia: "Referencia 15LF",
-            link:
-              "https://api.whatsapp.com/send?phone=573007657614&text=Referencia15LF",
-          },
+
           {
             image: "https://i.ibb.co/WxTbc8q/04.jpg",
-            titulo: "Pijama Blanca - Seda",
-            descripcion: "Precio: $10.000",
+            titulo: "Tanga de 3 tiras",
+            descripcion: "Precio: $15.000",
             referencia: "Referencia 16LF",
             link:
               "https://api.whatsapp.com/send?phone=573007657614&text=Referencia16LF",
           },
           {
             image: "https://i.ibb.co/2cqZr24/03.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Cachetero",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 17LF",
             link:
@@ -155,7 +148,7 @@ class LenceriaFList extends React.Component {
           },
           {
             image: "https://i.ibb.co/rksy1vJ/01.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Tanga de encaje",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 18LF",
             link:
@@ -163,7 +156,7 @@ class LenceriaFList extends React.Component {
           },
           {
             image: "https://i.ibb.co/VgFN4mR/02.jpg",
-            titulo: "Pijama Blanca - Seda",
+            titulo: "Tangas",
             descripcion: "Precio: $10.000",
             referencia: "Referencia 19LF",
             link:
